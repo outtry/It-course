@@ -1,0 +1,182 @@
+body {
+	background-color: #1f1f1f;
+}
+
+.nav-link {
+	color: #a1c3ff;
+}
+
+.nav-link:hover {
+	color: white;
+	font-size: 17px;
+}
+
+.header {
+	color: white;
+	position: relative;
+	height: 100px;
+	top: 80px;
+}
+
+.header h1 {
+	text-align: center;
+	font-size: 80px;
+}
+
+.header-bg {
+	position: absolute;
+	width: 100%;
+	opacity: 0.4;
+	filter: blur(4px);
+	position: fixed;
+}
+
+.info {
+	padding: 10px;
+	padding-left: 25px;
+	position: relative;
+	background-color: white;
+	height: 150px;
+	color: black;
+	border-radius: 10px;
+	width: 700px;
+	left: -230px;
+	top: 200px;
+}
+
+.info p {
+	font-size: 20px;
+}
+
+.btns {
+	position: relative;
+	top: 300px;
+	width: 729px;
+}
+
+.start-learning {
+	font-size: 30px;
+	border: 0;
+	border-radius: 35px;
+	background-color: #db8835;
+	color: white;
+	width: 300px;
+	height: 70px;
+	transition-duration: 300ms;
+	margin-right: 15px;
+}
+
+.start-learning:hover {
+	border: solid white 2px;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: white;
+}
+
+.start-learning:active {
+	transition-duration: 100ms;
+	width: 298px;
+	height: 68px;
+	font-size: 29px;
+}
+
+.get-consultation {
+	font-size: 30px;
+	border: solid white 2px;
+	border-radius: 35px;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: white;
+	width: 370px;
+	height: 70px;
+	transition-duration: 300ms;
+	margin-left: 15px;
+}
+
+.get-consultation:hover {
+	border: 0;
+	background-color: #db8835;
+	color: white;
+}
+
+.get-consultation:active {
+	transition-duration: 100ms;
+	width: 368px;
+	height: 68px;
+	font-size: 29px;
+}
+
+.down-arrow-div {
+	position: relative;
+	width: 100px;
+	top: 430px;
+	animation-name: arrow-moving;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.down-arrow {
+	filter: brightness(0) invert(1);
+	width: 100px;
+	/*top: 620px;*/
+}
+
+
+.description {
+	text-align: right;
+	width: 800px;
+	left: 200px;
+	background-color: white;
+	color: black;
+	position: relative;
+	top: 590px;
+	border-radius: 10px;
+	padding: 10px;
+	padding-right: 25px;
+	font-size: 18px;
+}
+
+.photographer {
+	position: absolute;
+	opacity: 0.6;
+	width: 350px;
+	left: 10%;
+	top: 1000px;
+}
+
+.laptop {
+	position: absolute;
+	opacity: 0.6;
+	width: 350px;
+	top: 1430px;
+	left: 67%;
+}
+
+.why {
+	width: 800px;
+	left: -200px;
+	background-color: white;
+	color: black;
+	position: relative;
+	top: 710px;
+	border-radius: 10px;
+	padding: 10px;
+	padding-right: 25px;
+	font-size: 18px;
+}
+
+.prices {
+	position: relative;
+	top: 850px;
+}
+
+@keyframes arrow-moving {
+	0% {
+		top: 430px;
+	}
+	50% {
+		top: 440px;
+	}
+	100% {
+		top: 430px;
+	}
+}
+
